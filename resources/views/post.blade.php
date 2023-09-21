@@ -3,9 +3,9 @@
 
 @section('container')
 <h2>{{ $post["title"] }}</h2>
-<h5>{{ $post["Language"] }}</h5>
-<p>{{ $post["body"] }}</p>
+
+{!! $post["body"] !!}
     
 
-<a href="/blog">Back to post</a>
+<a href="/posts">Back to post</a>
 @endsection
